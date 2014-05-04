@@ -2,7 +2,7 @@
 
 class CsvCheckException extends RuntimeException 
 {
-public function __construct($message = '', $file = '', $check = '')
+    public function __construct($message = '', $file = '', $check = '')
     {
         $msg = '';
         if ($file != '') {
